@@ -1,0 +1,110 @@
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*My code starts here */
+
+/* Styles for the container is here */
+
+.container{
+	max-width:1400px;
+	margin:0 auto;
+}
+
+.main-header .container .navbar {
+	padding: 10px;
+}
+
+.main-header .container .navbar ul {
+	display: inline-block;
+}
+
+.main-header .container .navbar ul li {
+	display: inline;
+	padding: 0 20px;
+}
+
+.main-header .container .navbar ul li a {
+	color: #ccc;
+	text-decoration: none;
+	padding: 5px;
+	font-size:  20px;
+}
+
+.logo picture {
+	margin-left: 35%;
+}
+
+/*Hero Section */
+
+.main-header .slogan{
+	display: inline;
+	text-align: center;
+}
+
+.main-header .slogan h1{
+	font-size: 75px;
+	display: inline-block;
+	padding: 5px;
+	margin: 10% 0 2% 10%;
+}
+
+.main-header .slogan a{
+	padding: 0px 20px 0 20px;
+	border: #333 1px solid;
+	color: #333;
+	text-decoration: none;
+	margin: 0 0 0 16%;
+	font-size: 20px;
+}
+
+.main-header .slogan .header-img {
+	margin: -25% 0 8% 70%;
+}
+
+/*content section */
+.content .container .top-content{
+	display:inline-block;
+	max-width: 500px;
+	margin: 2% 0 2% 8%;
+	padding: 20px;
+}
+
+.content .container .top-cotent h5{
+	font-size: 30px;
+}
+
+.content .container .top-content p {
+	font-size: 18px;
+}
+
+.content .container .top-content.second-content{
+	display:inline-block;
+	max-width: 300px;
+	margin:  2% 0 2% 8%;
+	padding: 20px;
+}
+
+.content .container img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.content .container .bottom-content {
+	display: inline-block;
+	max-width: 300px;
+	margin: 2% 0 2% 0;
+	padding: 20px;
+}
+
+/* Footer section here */
+footer .contact-content h5 {
+	margin-top: 2%;
+}
+
+footer .contact-content p {
+	margin-bottom:  2%;
+}
+
+footer .contact-content .copyright {
+	text-align: center;
+}
